@@ -17,4 +17,6 @@ Rails.application.routes.draw do
   delete "/products/:id", to: "products#destroy"
   # The below line add all the above
   # resources :products
+  # Setting the root
+  root "products#index"
 end
